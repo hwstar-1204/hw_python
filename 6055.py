@@ -1,0 +1,6 @@
+a,b = input().split()
+a = bool(int(a))
+b = bool(int(b))
+print(a or b)
+# a, b = input().split()
+# print(bool(int(a)) or bool(int(b)))
